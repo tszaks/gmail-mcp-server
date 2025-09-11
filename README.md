@@ -32,7 +32,7 @@ ls -la
 ### Installation Commands
 ```bash
 # 1. Download and enter directory
-git clone https://github.com/USERNAME/gmail-mcp-server.git
+git clone https://github.com/tjzaks/gmail-mcp-server.git
 cd gmail-mcp-server
 
 # 2. Install and build
@@ -173,7 +173,7 @@ rm -rf gmail-mcp-server
 
 **Option B: Git clone**
 ```bash
-git clone https://github.com/USERNAME/gmail-mcp-server.git
+git clone https://github.com/tjzaks/gmail-mcp-server.git
 ```
 
 ### Step 3: Build Project
