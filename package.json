@@ -1,0 +1,32 @@
+{
+  "name": "gmail-mcp-server",
+  "version": "1.0.0",
+  "description": "Gmail MCP Server - Comprehensive Gmail integration for Claude Code (@tszaks)",
+  "main": "dist/gmail-server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/gmail-server.js",
+    "start-gmail": "node dist/gmail-server.js"
+  },
+  "keywords": [
+    "mcp",
+    "gmail",
+    "email",
+    "google-api",
+    "claude-code"
+  ],
+  "author": "Tyler Szakacs (@tszaks)",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "google-auth-library": "^9.15.1",
+    "googleapis": "^144.0.0",
+    "open": "^10.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  }
+}
