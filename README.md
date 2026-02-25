@@ -32,7 +32,7 @@ ls -la
 ### Installation Commands
 ```bash
 # 1. Download and enter directory
-git clone https://github.com/tjzaks/gmail-mcp-server.git
+git clone https://github.com/tszaks/gmail-mcp-server.git
 cd gmail-mcp-server
 
 # 2. Install and build
@@ -173,7 +173,7 @@ rm -rf gmail-mcp-server
 
 **Option B: Git clone**
 ```bash
-git clone https://github.com/tjzaks/gmail-mcp-server.git
+git clone https://github.com/tszaks/gmail-mcp-server.git
 ```
 
 ### Step 3: Build Project
@@ -246,3 +246,38 @@ Once installed, try these commands:
 ---
 
 *Made with ❤️ for Claude Code users* • *@tszaks*
+## Quickstart TL;DR
+
+```bash
+git clone https://github.com/tszaks/gmail-mcp-server.git
+cd gmail-mcp-server
+npm install
+npm run build
+```
+
+Then configure OAuth credentials and start the server with your MCP client.
+
+## How It Works (TL;DR)
+
+- OAuth credentials authorize access to Gmail API scopes
+- MCP server exposes read/search/send tools
+- Tokens are used to execute Gmail operations on behalf of the authenticated account
+
+## LLM Quick Copy
+
+Use the copy button on this code block in GitHub.
+
+```txt
+Repo: gmail-mcp-server
+Goal: Connect Gmail to MCP clients for read/search/send workflows.
+Setup:
+1) npm install && npm run build
+2) Create Google Cloud OAuth Desktop credentials
+3) Place credentials in expected path and complete auth flow
+4) Add server to MCP config
+Use:
+- Read and search messages
+- Send/manage emails with granted scopes
+How it works:
+- Node MCP wrapper -> Gmail API with OAuth tokens
+```
