@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> This project is archived and no longer maintained. Use [ghub](https://github.com/tszaks/ghub) instead: it supports several Gmail accounts and has built-in OAuth onboarding.
+
 # Gmail MCP Server
 
 Connect your Gmail to Claude Code! Read, send, search, and manage emails directly through Claude.
